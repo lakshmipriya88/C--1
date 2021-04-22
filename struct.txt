@@ -1,0 +1,22 @@
+using System.IO;
+using System;
+
+namespace SampleApplication
+{
+    
+
+  public struct Employee
+{
+public int EmployeeId;
+public string EmployeeName;
+{
+    static void Main(string[] args)
+    {
+      Employee employee;
+      employee.EmployeeId = 13;
+      employee.EmployeeName = "Lakshmi";
+      Console.WriteLine(employee.EmployeeId+"\t"+employee.EmployeeName);
+      Console.ReadLine();
+    }
+}
+}

@@ -8,14 +8,14 @@ class Program
       int Age;
       Console.Write("Enter the Age:");
       Age=Convert.ToInt32(Console.ReadLine());
-      if(Age<=18)
+      if(Age<18)
       {
-          Console.WriteLine("\nThe person is eligible for vote");
+          Console.WriteLine("\nThe person is not eligible for vote");
           
       }
        else
       {
-          Console.WriteLine("\nThe person is not eligible for vote");
+          Console.WriteLine("\nThe person is eligible for vote");
           
       }
       
